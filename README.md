@@ -21,14 +21,14 @@ RNA-seq analysis of *S. cerevisiae* using DESeq2. 6 contrasts comparing potassiu
 
 ## Results Summary
 
-| Contrast | Upregulated | Downregulated | Top Gene | Most activated pathways
+| Contrast | Upregulated | Downregulated | Top Gene |
 | :--- | :--- | :--- | :--- |
-| Condition 1 | 415 | 421 | IRT1 |   |
-| Condition 2 | 727 | 806 | YRO2 |   |
-| Condition 3 | 618 | 433 | TPO2 |   |
-| Condition 4 | 418 | 576 | ENA2 |   |
-| Condition 5 | 804 | 608 | CIS3 |   |
-| Condition 6 | 661 | 949 | ENA2 |   |
+| Condition 1 | 415 | 421 | IRT1 |   
+| Condition 2 | 727 | 806 | YRO2 |   
+| Condition 3 | 618 | 433 | TPO2 |   
+| Condition 4 | 418 | 576 | ENA2 |   
+| Condition 5 | 804 | 608 | CIS3 |   
+| Condition 6 | 661 | 949 | ENA2 |   
 
 *Cutoff: padj < 0.05, |log2FC| > 1*
 
