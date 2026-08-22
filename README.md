@@ -5,30 +5,30 @@ RNA-seq analysis of *S. cerevisiae* using DESeq2. 6 contrasts comparing potassiu
 
 ## Dataset
 - **GEO:** GSE341442
-- **Samples:** 24 (4 conditions x 2 timepoints x 3 replicates)
+- **Samples:** 12 (4 conditions x 3 replicates)
 - **Organism:** Saccharomyces cerevisiae S288C
 
 ## Experimental Design
 
 | Contrast | Comparison | Question |
 | :--- | :--- | :--- |
-| Condition 1 | Low K (0.1mM) vs Control K (10mM) @ 60min | Effect of K⁺ deprivation |
-| Condition 2 | Low K + No Glucose vs Low K | Effect of glucose removal under low K |
-| Condition 3 | No Glucose vs Control @ 60min | Glucose starvation |
-| Condition 4 | Low K (0mM) vs Control @ 120min | Long-term K⁺ effect |
-| Condition 5 | Low K + Low Glucose vs Low K | Mild glucose limitation |
-| Condition 6 | No Glucose vs Low Glucose | Severe vs mild glucose stress |
+| Condition 1 | 2% glucose/7 mM K⁺ vs 2% glucose/1 mM K⁺ | Effect of K⁺ in standard glucose media |
+| Condition 2 | 2% glucose/7 mM K⁺ vs 0.5% glucose/1 mM K⁺ | Comparing standard glucose media and high K⁺ to limited glucose media and low K⁺ |
+| Condition 3 | 2% glucose/7 mM K⁺ vs 0.5% glucose/7 mM K⁺ | Glucose starvation with high potassium- comparing standard glucose media to low glucose media |
+| Condition 4 | 2% glucose/1 mM K⁺ vs 0.5% glucose/1 mM K⁺ | Glucose starvation with low potassium- comparing standard glucose media to low glucose media|
+| Condition 5 | 2% glucose/1 mM K⁺ vs 0.5% glucose/7 mM K⁺ | Comparing standard glucose, low potassium with low glucose, high potassium media |
+| Condition 6 | 0.5% glucose/7 mM K⁺ vs 0.5% glucose/1 mM K⁺| Comparing media with high and low potassium in glucose starvation |
 
 ## Results Summary
 
-| Contrast | Upregulated | Downregulated | Top Gene |
+| Contrast | Upregulated | Downregulated | Top Gene | Most activated pathways
 | :--- | :--- | :--- | :--- |
-| Cond 1 | 342 | 289 | TDA6 |
-| Cond 2 | 1120 | 980 | CTS1 |
-| Cond 3 | ... | ... | ... |
-| Cond 4 | ... | ... | ... |
-| Cond 5 | ... | ... | ... |
-| Cond 6 | ... | ... | ... |
+| Condition 1 | 415 | 421 | IRT1 |   |
+| Condition 2 | 727 | 806 | YRO2 |   |
+| Condition 3 | 618 | 433 | TPO2 |   |
+| Condition 4 | 418 | 576 | ENA2 |   |
+| Condition 5 | 804 | 608 | CIS3 |   |
+| Condition 6 | 661 | 949 | ENA2 |   |
 
 *Cutoff: padj < 0.05, |log2FC| > 1*
 
