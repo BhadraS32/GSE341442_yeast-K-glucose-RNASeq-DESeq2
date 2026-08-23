@@ -58,3 +58,7 @@ GSE341442_analysis/
 └── script/
     └── DESeq2_pipeline_final.R
 
+
+## How to Reproduce
+```r
+source("script/DESeq2_pipeline_final.R")
