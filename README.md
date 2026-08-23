@@ -44,9 +44,9 @@ RNA-seq analysis of *S. cerevisiae* using DESeq2. 6 contrasts comparing potassiu
 
 ## Folder Structure
 GSE341442_analysis/
-       ├── Data/ - GSE341442_Counts_allSamples.csv
-       ├── results/DEG_results/ - 6 DEG CSVs 6 volcano PNGs 
-       ├── results/GO_results/ - GO dotplots 
-       ├── results/PCA_and_Heatmap/ - PCA and heatmap
-       └── script/ - DESeq2_pipeline_final.R
-└──README.md
+├── Data/ - GSE341442_Counts_allSamples.csv
+├── results/DEG_results/ - 6 DEG CSVs 6 volcano PNGs 
+├── results/GO_results/ - GO dotplots 
+├── results/PCA_and_Heatmap/ - PCA and heatmap
+└── script/ - DESeq2_pipeline_final.R
+README.md
