@@ -49,4 +49,4 @@ GSE341442_analysis/
 ├── results/GO_results/ - GO dotplots 
 ├── results/PCA_and_Heatmap/ - PCA and heatmap
 └── script/ - DESeq2_pipeline_final.R
-README.md
+
